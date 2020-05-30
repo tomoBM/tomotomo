@@ -69,9 +69,6 @@
 
 /* スマホ用 */
 @media screen and (max-width:600px){
-  #home{
-    display:none;
-  }
   
   body{
     width: 100%;
@@ -87,6 +84,10 @@
   }
   .container p{
     font-size: 24px;
+  }
+  
+  #home{
+    display: none;
   }
 
   #bratomo {
