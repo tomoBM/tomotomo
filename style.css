@@ -8,7 +8,7 @@ header{
   width: 100%;
 }
 .top-wrapper{
- background-image: url(../image/ma.JPG);
+ background-image: url(ma.JPG);
  background-size: cover;
  /* background-color: tomato; */
  opacity: 0.8;
@@ -101,7 +101,7 @@ header{
   display: inline-block;/*忘れずに！*/
   width: 280px;/*画像の幅*/
   height: 120px;/*画像の高さ*/
-  background-image: url(../image/leaf.png);
+  background-image: url(leaf.png);
   background-size: contain;
   background-repeat: no-repeat;
   vertical-align: middle;
@@ -111,7 +111,7 @@ header{
   display: inline-block;/*忘れずに！*/
   width: 300px;/*画像の幅*/
   height: 120px;/*画像の高さ*/
-  background-image: url(../image/leaf.png);
+  background-image: url(leaf.png);
   background-size: contain;
   background-repeat: no-repeat;
   vertical-align: middle;
