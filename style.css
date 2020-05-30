@@ -1,0 +1,214 @@
+body{
+  margin:0;
+  width:100%;
+}
+
+/* --------------header-------------- */
+header{
+  width: 100%;
+}
+.top-wrapper{
+ background-image: url(../image/ma.JPG);
+ background-size: cover;
+ /* background-color: tomato; */
+ opacity: 0.8;
+ width: 100%;
+ height:600px;
+
+}
+.container{
+  width: 90%;
+  height:600px;
+  margin:0 auto;
+  /* background-color: tomato; */
+  text-align: center;
+  color: #BDC0BA;
+  text-shadow:4px 5px 3px rgb(109, 93, 93) ;
+}
+
+.container h1{
+  letter-spacing: 2px;
+  font-size: 70px;
+  margin:0;
+  font-family: serif;
+}
+.container p{
+  font-size: 30px;
+  font-family: serif;
+}
+
+/* --------------menu tab-------------- */
+
+.nav{
+  width: 100%;
+  color: white;
+  /* position: fixed; */
+}
+
+.nav ul{
+  display: inline-flex;
+  width: 100%;
+  background-color: #0F2540;
+  opacity: 0.9;
+  height: 50px;
+  margin:0;
+  
+}
+
+.nav li{
+  list-style-type: none;
+  /* border:1px solid black ; */
+  padding:0 10px;
+  margin: 05px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.nav a{
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+.nav a:hover{
+  background-color: teal;
+}
+
+/* --------------main-------------- */
+
+.main{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container1{
+  /* background-color: rgba(207, 242, 255); */
+}
+
+.main h2{
+  margin: 50px;
+  text-align: center;
+  font-size: 60px;
+  /* background-color:rgba(123, 144, 210, 0.3); */
+  font-family: 'Segoe Script','Snell Roundhand',sans-serif;
+  /* content: url(../image/leaf.png); */
+}
+
+.main h2:after {
+  content: '';/*何も入れない*/
+  display: inline-block;/*忘れずに！*/
+  width: 280px;/*画像の幅*/
+  height: 120px;/*画像の高さ*/
+  background-image: url(../image/leaf.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+.main h2:before {
+  content: '';/*何も入れない*/
+  display: inline-block;/*忘れずに！*/
+  width: 300px;/*画像の幅*/
+  height: 120px;/*画像の高さ*/
+  background-image: url(../image/leaf.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  transform: scale(-1, 1);
+}
+
+
+
+/* --------------about us-------------- */
+
+.aboutUs{
+
+ margin: 0 auto;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+
+.aboutUs img{
+  width: 30%;
+}
+.brandan{
+  width: 30%;
+/* background-color: rgba(123, 144, 210, 0.3); */
+}
+.brandan img{
+  width: 80%;
+  border-radius: 50%;
+}
+
+.tomo{
+  width: 30%;
+/* background-color:rgba(123, 144, 210, 0.3); */
+}
+
+.tomo img{
+  width:80%;
+  border-radius: 50%;
+}
+
+/* --------------travel-------------- */
+
+
+.travel{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box{
+
+  width: 30%;
+  background-color:rgba(0,137,167,0.3);
+  margin: 10px;
+}
+
+.box img{
+  width: 100%;
+}
+
+.box h3{
+  text-align: center;
+}
+.box p{
+  margin: 20px 8px;
+
+}
+
+#banff{
+  margin-bottom: 30px;
+}
+
+/* --------------gallery-------------- */
+
+.gallery{
+  width: 70%;
+  margin:  auto;
+}
+
+
+/* --------------footer-------------- */
+.footer{
+  margin-top: 50px;
+  text-align: center;
+  width: 90%;
+}
+
+.thank{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#thanks{
+  border: 1px solid black;
+  border-radius: 20px;
+  align-self: center;
+  padding: 20px 10px;
+}
+
