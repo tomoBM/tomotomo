@@ -69,6 +69,10 @@
 
 /* スマホ用 */
 @media screen and (max-width:600px){
+  #home{
+    display:none;
+  }
+  
   body{
     width: 100%;
     margin-right: 0;
