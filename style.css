@@ -8,7 +8,7 @@ header{
   width: 100%;
 }
 .top-wrapper{
- background-image: url("ma.JPG");
+ background-image: url(ma.JPG);
  background-size: cover;
  /* background-color: tomato; */
  opacity: 0.8;
